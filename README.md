@@ -1,11 +1,11 @@
 Echobase: OSM and SRTM Tile Generator
 ========
 
-The Echobase Tile Generator application generates tiles from OSM (http://www.openstreetmap.org/) and SRTM (http://srtm.csi.cgiar.org) data for use in the Echoscape app.  The tiles 0.02 by 0.02 degree tiles of terrain data (SRTM) and street and building data (OSM). 
+The Echobase Tile Generator application generates tiles from OSM (http://www.openstreetmap.org/) and SRTM (http://srtm.csi.cgiar.org) data for use in the Echoscape app.  The tiles are set at 0.02 by 0.02 degree tiles but could in principle be any size of rectangle.
 
 The application is written in PHP and all necessary functions are in the echobase_classes.php file.  The cron.php file can be run to auto-generate the tiles required based on a set of input coordinates.  Each time this is run, it checks the Echoscape data directory to populate a list of existing tiles and then compares that to those required by the input set of coordinates. The coordinate set in this case are those from the audio-mobile database (http://audio-mobile.org/).
 
-In order to reliably create tiles on demand, the source data for each dataset was hosted locally (~30GB).
+In order to reliably create tiles on demand, the source data for each dataset was hosted locally (~30GB). This data was not add to this repository (obviously), you'll have to get that on your own!
 
 Folder Structure
 /bat - the batch files used to split the OSM planet file into 5 by 5 degree tiles
