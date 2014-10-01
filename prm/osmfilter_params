@@ -1,0 +1,12 @@
+--keep-nodes=
+highway=
+building=
+waterway=
+
+--keep-tags=
+all
+highway=
+building=
+name=
+
+--out-osm

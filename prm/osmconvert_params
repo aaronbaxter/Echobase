@@ -1,0 +1,9 @@
+-v=2
+
+--drop-author
+
+--drop-version
+
+--drop-relations
+
+--out-pbf
