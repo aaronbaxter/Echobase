@@ -1,5 +1,4 @@
 Echobase: OSM and SRTM Tile Generator
-Created to support the Echoscape Project - https://github.com/owenchapman/Echoscape
 ========
 
 The Echobase Tile Generator application generates tiles from OSM (http://www.openstreetmap.org/) and SRTM (http://srtm.csi.cgiar.org) data for use in the Echoscape app.  The tiles 0.02 by 0.02 degree tiles of terrain data (SRTM) and street and building data (OSM). 
@@ -33,3 +32,5 @@ Credits
 Jarvis A., H.I. Reuter, A.  Nelson, E. Guevara, 2008, Hole-filled  seamless SRTM
 data V4, International  Centre for Tropical  Agriculture (CIAT), available  from
 http://srtm.csi.cgiar.org.
+
+Created to support the Echoscape Project - https://github.com/owenchapman/Echoscape
